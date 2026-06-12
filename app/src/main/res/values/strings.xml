@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarPuter</string>
+    <string name="gps_active">GPS Active</string>
+    <string name="gps_denied">GPS Denied</string>
+    <string name="gps_unavailable">GPS Off</string>
+    <string name="gps_accuracy_format">GPS ±%dm</string>
+    <string name="max_speed_format">Max: %d %s</string>
+</resources>

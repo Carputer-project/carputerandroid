@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dashboard background -->
+    <color name="dashboard_bg">#0A0A0A</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8A8A8A</color>
+
+    <!-- Speed indicator colors -->
+    <color name="speed_low">#4CAF50</color>
+    <color name="speed_mid">#FFC107</color>
+    <color name="speed_high">#F44336</color>
+
+    <!-- Chip background -->
+    <color name="chip_bg">#1E1E1E</color>
+</resources>
