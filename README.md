@@ -1,2 +1,2 @@
 # carputerandroid
-androd capupter dashboard
+androd carputer dashboard
