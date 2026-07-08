@@ -14,7 +14,7 @@ Android companion app for the Carputer dashboard system. Connects to ESP32 senso
 - Warning popup for critical alerts
 
 ### Media Player (MEDIA)
-- Play music from phone storage (mp3, flac, wav, ogg, aac, m4a, wma)
+- Play music from phone storage (mp3, flac, wav, aac, m4a, wma)
 - ExoPlayer with seek, shuffle, repeat
 - Spectrum analyzer (32 bars)
 - Playlist and album browsing
@@ -69,3 +69,12 @@ APK at `app/build/outputs/apk/debug/app-debug.apk`
 - Notifications (foreground service)
 - Boot completed (auto-start)
 - USB peripheral (ESP32 flashing)
+
+## Related Repositories
+
+| Repo | Role |
+|------|------|
+| [esp32_sensor_module](https://github.com/carputer-project/esp32_sensor_module) | Sends engine sensor data via UDP (192.168.4.20 → 192.168.4.3:5001) |
+| [esp32_body_controller](https://github.com/carputer-project/esp32_body_controller) | Receives relay/audio commands via TCP (192.168.4.1:5000) |
+| [carputer-pcb](https://github.com/carputer-project/carputer-pcb) | Physical PCB design hosting both ESP32 modules |
+| [carputer](https://github.com/carputer-project/carputer) | Qt5 desktop head unit (alternative to this Android app) |
